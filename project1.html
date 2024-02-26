@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password generator</title>
+    <link rel="stylesheet" href="./project1.css">
+</head>
+
+<body>
+    <div class="inner1-container">
+        <H1>PASSWORD GENERATOR</H1>
+        <div>
+            <input readonly placeholder="password" id="passwordInput" class="display" password_display>
+            <button id="copyButton" onclick="copyContent()">Copy Password</button>
+            <span id="copyMessage"></span>
+        </div>
+        <div class="inner2-container">
+
+            <div id="length">password Length
+                <span id="count">0</span>
+            </div>
+            <div><input type="range" min="1" max="20" class="range">
+            </div>
+            <div class="section">
+                <div>
+                    <input type="checkbox" id="uppercase">
+                    <label for="uppercase">include uppercase </label>
+                </div>
+
+                <div>
+                    <input type="checkbox" id="lowercase">
+                    <label for="lowercae">include lowercase </label>
+                </div>
+                <div>
+                    <input type="checkbox" id="number">
+                    <label for="number">include number</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="symbol">
+                    <label for="symbol">include symbol</label>
+                </div>
+            </div>
+            <div class="outerStrength">
+                <div id="passwordBox"></div>
+            </div>
+            <div>
+                <button id="btn2">generate password</button>
+            </div>
+        </div>
+    </div>
+    <script src="project1.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,183 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+
+.inner1-container {
+    padding: 40px;
+    border-radius: 20px;
+    background-image: linear-gradient(
+  40deg,
+  hsl(240deg 100% 20%) 0%,
+  hsl(248deg 100% 21%) 3%,
+  hsl(256deg 100% 23%) 7%,
+  hsl(265deg 100% 24%) 11%,
+  hsl(273deg 100% 26%) 16%,
+  hsl(282deg 100% 27%) 22%,
+  hsl(290deg 100% 29%) 30%,
+  hsl(298deg 100% 30%) 40%,
+  hsl(307deg 100% 31%) 51%,
+  hsl(315deg 100% 33%) 62%,
+  hsl(323deg 100% 34%) 70%,
+  hsl(332deg 100% 36%) 77%,
+  hsl(340deg 100% 37%) 82%,
+  hsl(348deg 100% 39%) 85%,
+  hsl(357deg 100% 40%) 89%,
+  hsl(5deg 100% 41%) 91%,
+  hsl(13deg 100% 43%) 93%,
+  hsl(22deg 100% 44%) 95%,
+  hsl(30deg 100% 46%) 97%,
+  hsl(39deg 100% 47%) 98%,
+  hsl(47deg 100% 49%) 99%,
+  hsl(55deg 100% 50%) 100%
+);
+    text-align: center;
+}
+
+.inner2-container {
+    margin-top: 20px;
+}
+
+.display {
+    width: 60%;
+    padding: 10px;
+    margin: 10px 20px;
+    box-sizing: border-box;
+    border-radius:20px;
+    border:4px solid black;
+}
+
+#btn1 {
+    background: fixed;
+    border: none;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    border:2px solid black;
+    width:40px;
+    height:40px;
+
+
+}
+
+#image1{
+    width:10px;
+    height:10px;
+}
+
+.copy-message {
+    margin-right: 10px;
+}
+
+.range {
+    width: 60%;
+    margin-right:90px;
+    margin-bottom:20px;
+}
+
+#count{
+        padding-left:60px;
+        font-size:30px;
+        color:yellow;
+}
+
+#length{
+    margin-right:140px;
+    margin-bottom: 20px;
+    font-size:30px;
+
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.section{
+    border:2px solid black;
+    padding-right:160px;
+    margin-bottom: 50px;
+    padding-bottom:30px;
+    font-size:30px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 15px;
+}
+
+#number{
+        margin-left:-25px;
+}
+
+#symbol{
+    margin-left:-25px;
+}
+
+.section1{
+    font-size: 30px;
+    margin-bottom:50px;
+    text-align:left;
+}
+
+#round{
+       border:2px solid rgb(26, 24, 24);
+       margin-left:300px;
+       width:10px;
+       height: 20px;
+      
+}
+#passwordBox {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    margin-top: 20px;
+    align-items: center;
+    border-radius: 10px;
+}
+button#btn2 {
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button#btn2:hover {
+    background-color: #14068e;
+}
+
+.outerStrength{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+#copyButton {
+    cursor: pointer;
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+#copyMessage {
+    display: none;
+    margin-top: 10px;
+    color: #27ae60;
+}
+
+#copyMessage.active {
+    display: block;
+}
